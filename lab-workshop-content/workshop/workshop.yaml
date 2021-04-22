@@ -1,0 +1,13 @@
+name: Workshop Content
+
+modules:
+    activate:
+    - workshop-overview
+    - exercises/01-explore-dev-console
+    - exercises/02-crw
+    - exercises/03-deployapp-webconsole
+    - exercises/04-deploydotnet
+    - exercises/05-cd
+    - exercises/06-resourcemgmt
+    - exercises/07-monitoring
+    - workshop-summary
