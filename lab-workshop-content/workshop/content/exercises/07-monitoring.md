@@ -4,7 +4,7 @@ Developer need to monitor the application deployed and access the logs for inves
 
 ### Monitor your application an accessing logs 
 
-* Please open another brower tab for [Openshift Console][https://console-openshift-console.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com].  Login as `%username%` and password as `openshift`.
+* Please open another brower tab for [Openshift Console](https://console-openshift-console.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com).  Login as `%username%` and password as `openshift`.
 
 * Switch to `Developer` mode.  Select `%username%-dev` project.  You see the applications that you have deployed in exercise 4.  
 

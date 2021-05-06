@@ -6,7 +6,7 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 
 ### Create a spring boot application. 
 
-* Open a new browser tab with the url as [CodeReady Workspace][https://codeready-openshift-workspaces.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com].  Login as `%username%` and password as `openshift`.
+* Open a new browser tab with the url as [CodeReady Workspace](https://codeready-openshift-workspaces.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com).  Login as `%username%` and password as `openshift`.
 
 * Click on [Allow selected permissions].
 ![CodeReady Workspace 12](./images/02/crw-12.png)
