@@ -6,7 +6,10 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 
 ### Create a spring boot application. 
 
-* Open a new browser tab with the url as `https://codeready-openshift-workspaces.apps.cluster-5af7.5af7.sandbox615.opentlc.com`.  Login as `%username%` and password as `openshift`.
+* Open a new browser tab with the url as [CodeReady Workspace][https://codeready-openshift-workspaces.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com].  Login as `%username%` and password as `openshift`.
+
+* Click on [Allow selected permissions].
+![CodeReady Workspace 12](./images/02/crw-12.png)
 
 * Key in your email address, first name and last name.  Click on [Submit].
 ![CodeReady Workspace 01](./images/02/crw-01.png)
@@ -23,7 +26,7 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 * `Build Successful` will be showed in the Terminal if successful.   If you encounter error,  please check with the instructor or lab assistant.
 ![CodeReady Workspace 05](./images/02/crw-05.png)
 
-* Click on 'Run' to build the application.  Click on [Open in Preview].  
+* Click on 'Run' to run the application.  Click on [Open in Preview].  
 ![CodeReady Workspace 06](./images/02/crw-06.png)
 
 * You will see the spring boot application open in preview pane. Click on [Invoke] button.  You will see the result as `{"content":"Hello, World!"}`.   

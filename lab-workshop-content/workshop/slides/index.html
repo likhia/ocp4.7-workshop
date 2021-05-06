@@ -20,6 +20,17 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+                
+		<style>
+			table, th, td {
+  				border: 1px solid black;
+  				padding: 5px;
+			}
+			table {
+  				border-spacing: 15px;
+			}
+	     	</style>
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -27,6 +38,24 @@
                                 <section>
                                     <section>
                                         <h2>Openshift Workshop for Developers</h2>
+                                    </section>
+                                </section>
+                                <section> 
+                                    <section> 
+                                        <table width="100%">
+                                           <tr> 
+                                              <td><a href="http://order.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com/" >Order Page</a></td>
+                                           </tr>
+                                           <tr>
+                                              <td><a href="https://kiali-istio-system.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com">Service Mesh Traffic Monitoring</a></td>
+                                           </tr>
+                                           <tr> 
+                                              <td><a href="http://kafdrop-kafka.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com/">Kafka Monitoring</a>
+                                           </tr>
+                                           <tr>
+                                              <td><a href="https://console-openshift-console.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com">Openshift Console</a></td>
+                                           </tr>
+                                        </table>
                                     </section>
                                 </section>
                                 <section id="questions">

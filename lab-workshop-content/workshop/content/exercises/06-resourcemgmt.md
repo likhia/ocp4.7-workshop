@@ -10,7 +10,7 @@ In the project you can set specific resource limits for a Pod, container, image,
 
 * Click on the `console`.
 
-* Please switch project to `resourcemanagement-%username%`.  The user is assigned with cluster-admin role for this resourcemanagement-%username% project so that the user is able to create reource quota and limit range. 
+* Please switch project to `%username%-resourcemanagement`.  The user is assigned with cluster-admin role for this %username%-resourcemanagement project so that the user is able to create reource quota and limit range. 
 
 * Navigate to **Administration** -> **Resource Quota** and click on **Create Resource Quota**.   Change the value of `requests.memory`, `limits.cpu` and `limits.memory` as below and click on **Create**
 ![resource management 8](./images/06/resourcemanagement-8.png)
