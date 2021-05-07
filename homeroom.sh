@@ -2,7 +2,7 @@ oc new-project homeroom-workshop
   
 oc import-image quay.io/openshifthomeroom/workshop-dashboard:5.0.1
 
-REGISTRY=default-route-openshift-image-registry.apps.cluster-5af7.5af7.sandbox615.opentlc.com
+REGISTRY=default-route-openshift-image-registry.apps.cluster-1ec0.1ec0.sandbox1350.opentlc.com
 
 docker login -u kubeadmin -p $(oc whoami -t) $REGISTRY
 
