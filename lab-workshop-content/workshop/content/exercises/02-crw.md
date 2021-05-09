@@ -14,7 +14,7 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 * Key in your email address, first name and last name.  Click on [Submit].
 ![CodeReady Workspace 01](./images/02/crw-01.png)
 
-* Click on Java Spring Boot on the 2nd row 4th column.  This might take a few minutes.   This will auto-create a `Hello World` service with Spring Boot.  
+* Click on Java Spring Boot as hightlighted in red box below.  This might take a few minutes.   This will auto-create a `Hello World` service with Spring Boot.  
 ![CodeReady Workspace 02](./images/02/crw-02.png)
 
 * If you are interested to see the code, you can navigate to src/main/java/dev/snowdrop/service/GreetingEndpoint.java 
@@ -32,7 +32,7 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 * You will see the spring boot application open in preview pane. Click on [Invoke] button.  You will see the result as `{"content":"Hello, World!"}`.   
 ![CodeReady Workspace 07](./images/02/crw-07.png)
 
-* The application is working fine.  Next step is to deploy the application into openshift.   Click on the box icon on the right.  Click on `New Terminal`.  Type **oc login `https://api.cluster-5af7.5af7.sandbox615.opentlc.com:6443` -u `%username%` -p `openshift`** and `Y` when prompt. 
+* The application is working fine.  Next step is to deploy the application into openshift.   Click on the box icon on the right.  Click on `New Terminal`.  Type **oc login `https://api.cluster-19dc.19dc.sandbox811.opentlc.com:6443` -u `%username%` -p `openshift`** and `Y` when prompt. 
 ![CodeReady Workspace 08](./images/02/crw-08.png)
 
 * Type `oc new-project %username%-project` to create new project to deploy application. 
@@ -41,7 +41,7 @@ In this workshop,  we have deployed CodeReady Workspace in Openshift Cluster for
 * Click on `Deploy to Openshift`.   
 ![CodeReady Workspace 10](./images/02/crw-10.png)
 
-* After it is successful, click on **console**.  You will see the application deployed successfully into `%username%-project` project.  Click on the icon on top right corner to access the application.                   
+* After it is successful, click on **console**.  You will see the application deployed successfully into `%username%-project` project. Please wait till the circle turned dark blue as shown below.  Click on the icon on top right corner to access the application.                   
 ![CodeReady Workspace 11](./images/02/crw-11.png)
 
 ### Summary

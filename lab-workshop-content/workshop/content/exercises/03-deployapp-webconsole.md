@@ -28,7 +28,7 @@ When you explore a deployed application, make sure you look at the corresponding
 * You will navigate back to Topology page and another deployment named Quarkus is added.  Click on it to view its details on the right.  I will cover the monitoring and logging of application in last exercise. 
 ![dev console app 03](./images/03/deployImage-03.png)
 
-* Click on the icon on the top right corner.  It will open a browser tab.  Add `/demo` to the URL.  You will see a simple `Hello World`.
+* Please wait till the circle turned dark blue. Click on the icon on the top right corner.  It will open a browser tab.  Add `/demo` to the URL.  You will see a simple `Hello World`.
 ![dev console app 04](./images/03/deployImage-04.png) 
 
 ### Summary

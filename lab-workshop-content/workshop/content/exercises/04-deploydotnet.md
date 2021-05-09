@@ -40,7 +40,7 @@ oc expose service/sampledotnet
 * The application is deployed successfully.   You can access it via the router.   Click on the **Console** tab.  Switch to **Administration**. Make sure that you select `%username%-dev` as project.  Click on **Networking** -> **Routes**. 
 ![dotnet 02](./images/04/dotnet-02.png)  
 
-* Click on the URL to launch the application.   You will see the application as below. 
+* Click on the URL to launch the application.   You will see the application as below.  This application might take a while to deploy. 
 ![dotnet 03](./images/04/dotnet-03.png)
 
 * Go back to **Console**.   Click on **Builds** -> **ImageStreams**.  This is showing the application image of this .net core application.   You can use to deploy to the next environment. 
